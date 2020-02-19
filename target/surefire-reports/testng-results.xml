@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30341" started-at="2020-02-17T14:14:55Z" finished-at="2020-02-17T14:15:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30341" started-at="2020-02-17T14:14:55Z" finished-at="2020-02-17T14:15:25Z">
+      <class name="com.teamtracker.qa.testcases.TC_Add_Manager_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.teamtracker.qa.testcases.TC_Add_Manager_001@7a0ac6e3]" name="setup" is-config="true" duration-ms="11817" started-at="2020-02-17T14:14:55Z" finished-at="2020-02-17T14:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Add_Manager(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.teamtracker.qa.testcases.TC_Add_Manager_001@7a0ac6e3]" name="Add_Manager" duration-ms="17172" started-at="2020-02-17T14:15:08Z" data-provider="Data" finished-at="2020-02-17T14:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pratik Patel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8455142155]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pratik.hood@locationguru.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[846541]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pratik8001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Manager -->
+      </class> <!-- com.teamtracker.qa.testcases.TC_Add_Manager_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
