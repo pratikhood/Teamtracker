@@ -6,8 +6,8 @@
     <groups>
     </groups>
     <test name="Test" duration-ms="30341" started-at="2020-02-17T14:14:55Z" finished-at="2020-02-17T14:15:25Z">
-      <class name="com.teamtracker.qa.testcases.TC_Add_Manager_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.teamtracker.qa.testcases.TC_Add_Manager_001@7a0ac6e3]" name="setup" is-config="true" duration-ms="11817" started-at="2020-02-17T14:14:55Z" finished-at="2020-02-17T14:15:07Z">
+      <class name="com.teamtracker.qa.testcases.Manager.TC_Add_Manager_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.teamtracker.qa.testcases.Manager.TC_Add_Manager_001@7a0ac6e3]" name="setup" is-config="true" duration-ms="11817" started-at="2020-02-17T14:14:55Z" finished-at="2020-02-17T14:15:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Add_Manager(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.teamtracker.qa.testcases.TC_Add_Manager_001@7a0ac6e3]" name="Add_Manager" duration-ms="17172" started-at="2020-02-17T14:15:08Z" data-provider="Data" finished-at="2020-02-17T14:15:25Z">
+        <test-method status="PASS" signature="Add_Manager(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.teamtracker.qa.testcases.Manager.TC_Add_Manager_001@7a0ac6e3]" name="Add_Manager" duration-ms="17172" started-at="2020-02-17T14:15:08Z" data-provider="Data" finished-at="2020-02-17T14:15:25Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add_Manager -->
-      </class> <!-- com.teamtracker.qa.testcases.TC_Add_Manager_001 -->
+      </class> <!-- com.teamtracker.qa.testcases.Manager.TC_Add_Manager_001 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -64,5 +64,24 @@ public class ReadConfig
 		return iedriver;
 	}
 	
+	public String getPortalApplicationURL()
+	{
+		String portalURL = pro.getProperty("portal_url");
+		return portalURL;
+	}
+
+	public String getPortalUsername()
+	{
+		String portal_username = pro.getProperty("portal_username");
+		return portal_username;
+	}
+
+	public String getPortalPassword()
+	{
+		String portal_password = pro.getProperty("portal_password");
+		return portal_password;
+	}
+
+	
 	
 }

@@ -16,6 +16,8 @@ public class Home_Page
 		PageFactory.initElements(rdriver, this);
 	}
 	
+	@FindBy(xpath="//a[contains(text(),'Organization Setup')]")
+	WebElement oranization_setup_menu;
 	
 	@FindBy(xpath="//span[contains(text(),'Admin')]")
 	WebElement Admin_Menu;
@@ -25,6 +27,38 @@ public class Home_Page
 	
 	@FindBy(xpath="//span[contains(text(),'Tasks')]")
 	WebElement Task_Menu;
+	
+	@FindBy(xpath="//a[contains(text(),'Team Setup')]")
+	WebElement Team_Setup;
+	
+	@FindBy(xpath="//a[contains(text(),'Forms')]")
+	WebElement Form_Menu;
+	
+	@FindBy(xpath="//span[contains(text(),'POI')]")
+	WebElement POI_Menu;
+	
+	
+	public void click_on_oranization_setup_menu()
+	{
+		oranization_setup_menu.click();
+	}
+	
+	
+	public void click_on_POI_menu()
+	{
+		POI_Menu.click();
+	}
+	
+	
+	public void click_on_form_menu()
+	{
+		Form_Menu.click();
+	}
+	
+	public void click_on_team_setup()
+	{
+		Team_Setup.click();
+	}
 	
 	public void click_on_task_menu()
 	{

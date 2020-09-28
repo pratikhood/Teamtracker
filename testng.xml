@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
-		<listener class-name="com.teamtracker.qa.util.Reporting" />
-	</listeners>
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.teamtracker.qa.testcases.TC_Add_Manager_001" />
+			
+			<!--  <class name="com.teamtracker.qa.testcases.TC_Add_Organization_HIerarchy_001" />-->
+			 <class name="com.teamtracker.qa.testcases.TC_Add_Organization_Unit_002" />
+			<!--  <class name="com.teamtracker.qa.testcases.TC_Modify_Organization_Unit_003" />
+			<class name="com.teamtracker.qa.testcases.TC_Delete_Organization_Unit_004" />
+			<class name="com.teamtracker.qa.testcases.TC_Import_Organization_Unit_005" />
+			<class name="com.teamtracker.qa.testcases.TC_Add_Form_006"/>
+			<class name="com.teamtracker.qa.testcases.TC_Modify_Form_007"/>
+			<class name="com.teamtracker.qa.testcases.TC_Add_Team_Member_from_portal" />
+			<class name="com.teamtracker.qa.testcases.Search_added_team_member_from_portal" /> 
+			
+			<class name="com.teamtracker.qa.testcases.Add_Task" />
+			
+			
+			<class name="com.teamtracker.qa.testcases.TC_Add_Manager_009"/>
+			<class name="com.teamtracker.qa.testcases.TC_Modify_Manager_011"/>
+			<class name="com.teamtracker.qa.testcases.TC_Delete_Manager_12"/>
+			<class name="com.teamtracker.qa.testcases.TC_Import_Manager_013"/>
+			<class name="com.teamtracker.qa.testcases.TC_Add_POI_014" />
+			<class name="com.teamtracker.qa.testcases.TC_Modify_POI_015"/>
+			<class name="com.teamtracker.qa.testcases.TC_Delete_POI_017"/>
+			<class name="com.teamtracker.qa.testcases.TC_Import_POI_018"/>
+			<class name="com.teamtracker.qa.testcases.TC_Modify_Task_020"/>
+			<class name="com.teamtracker.qa.testcases.TC_Delete_Task_021"/>
+			<class name="com.teamtracker.qa.testcases.TC_Import_Task_022"/>-->
+			
+			
+					
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -47,6 +47,31 @@ public class Manager_Page
 	@FindBy(id="addManagerBtn")
 	WebElement save_button;
 	
+	@FindBy(id="modifyButton")
+	WebElement modify_button;
+	
+	@FindBy(xpath="//a[@id='06f02c3c-77e4-426e-ba61-d9c84c254384_anchor']//i[@class='jstree-icon jstree-checkbox']")
+	WebElement alpha_org;
+	
+	@FindBy(id="modifyManagerBtn")
+	WebElement save_button_modify;
+	
+	@FindBy(id="deleteButton")
+	WebElement delete_button;
+	
+	@FindBy(xpath="//button[@class='confirm']")
+	WebElement confirmation_on_delete_action;
+	
+	@FindBy(xpath="//span[contains(@class,'btn-theme-group')]//input[1]")
+	WebElement import_button;
+	
+	@FindBy(xpath="//span[@class='buttonText']")
+	WebElement choose_file_button;
+	
+	
+	@FindBy(xpath="//div[4]//input[1]")
+	WebElement upload_button;
+	
 	
 	
 	
@@ -99,8 +124,55 @@ public class Manager_Page
 	{
 		save_button.click();
 	}
-
-
 	
-
+	public void clear_manager_name()
+	{
+		manager_name.clear();
+	}
+	
+	public void enter_modified_manager_name(String modified_name)
+	{
+		manager_name.sendKeys(modified_name);
+	}
+	
+	public void click_on_modify_button()
+	{
+		modify_button.click();
+	}
+	
+	public void select_alpha_org()
+	{
+		alpha_org.click();
+	}
+	
+	public void click_on_save_button_while_modify()
+	{
+		save_button_modify.click();
+	}
+	
+	public void click_on_delete_button()
+	{
+		delete_button.click();
+	}
+	
+	public void click_on_OK_button()
+	{
+		confirmation_on_delete_action.click();
+	}
+	public void click_on_import_button()
+	{
+		import_button.click();
+	}
+	
+	public void click_on_choose_file_button()
+	{
+		choose_file_button.click();
+	}
+	
+	public void click_on_upload_button()
+	{
+		upload_button.click();
+	}
+	
+	
 }

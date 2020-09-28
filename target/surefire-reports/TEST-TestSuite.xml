@@ -130,5 +130,5 @@
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase name="Add_Manager" classname="com.teamtracker.qa.testcases.TC_Add_Manager_001" time="17.171"/>
+  <testcase name="Add_Manager" classname="com.teamtracker.qa.testcases.Manager.TC_Add_Manager_001" time="17.171"/>
 </testsuite>

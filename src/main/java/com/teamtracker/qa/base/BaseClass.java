@@ -12,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
@@ -23,14 +24,14 @@ import com.teamtracker.qa.util.TestUtil;
 
 public class BaseClass 
 {
+	
 
 	
 	public ReadConfig readConfig  = new ReadConfig();
 	
 	public String baseURL = readConfig.getApplicationURL();
 	
-	public String username = readConfig.getUsername();
-	public String password = readConfig.getPassword();
+	
 	
 	
 	public String chromepath = readConfig.getChromePath();
@@ -43,8 +44,8 @@ public class BaseClass
 	public void setup(String br)
 	{
 
-		Logger logger = Logger.getLogger("Teamtracker");
-		PropertyConfigurator.configure("Log4j.properties");
+		 Logger logger = Logger.getLogger("Teamtracker");
+		 PropertyConfigurator.configure("Log4j.properties");
 		
 		if(br.equals("chrome"))
 		{
@@ -72,7 +73,7 @@ public class BaseClass
 		driver.get(baseURL);
 		logger.info("URL opened");
 		
-
+		
 	}
 	
 	

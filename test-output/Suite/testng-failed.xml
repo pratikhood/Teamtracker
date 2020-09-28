@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.teamtracker.qa.util.Reporting"/>
-  </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.teamtracker.qa.testcases.Assign_Task_To_Mobile">
+      <class name="com.teamtracker.qa.testcases.TC_Add_Organization_Unit_002">
         <methods>
           <include name="setup"/>
-          <include name="Verify_team_member_able_to_do_Activity_on_task" invocation-numbers="0"/>
+          <include name="Add_Organization_Unit" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.teamtracker.qa.testcases.Assign_Task_To_Mobile -->
+      </class> <!-- com.teamtracker.qa.testcases.TC_Add_Organization_Unit_002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

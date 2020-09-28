@@ -47,10 +47,23 @@ public class Task_Page
 	@FindBy(id="taskAddBtn")
 	WebElement save_button;
 	
+	@FindBy(xpath="//textarea[@id='description']")
+	WebElement description_field;
 	
+	@FindBy(id="taskUpdateBtn")
+	WebElement update_button;
 	
+	@FindBy(xpath="//button[@class='confirm']")
+	WebElement ok_button;
 	
+	@FindBy(id="taskOptions-Import")
+	WebElement import_button;
 	
+	@FindBy(xpath="//span[@class='buttonText']")
+	WebElement choose_file_button;
+	
+	@FindBy(xpath="//div[@id='formImportBox']//div[4]//input[1]")
+	WebElement upload_button;
 	
 	
 	
@@ -105,14 +118,46 @@ public class Task_Page
 		save_button.click();
 	}
 	
+	public void enter_description(String desc)
+	{
+		description_field.sendKeys(desc);
+	}
+	
+	public void clear_description()
+	{
+		description_field.clear();
+	}
+	
+	public void enter_modified_description(String mod_desc)
+	{
+		description_field.sendKeys (mod_desc);
+	}
+	
+	public void click_on_update_button()
+	{
+		update_button.click();
+	}
 	
 	
+	public void click_on_OK_button()
+	{
+		ok_button.click();
+	}
+	
+	public void click_on_Import_button()
+	{
+		import_button.click();
+	}
+	
+	public void click_on_choose_file_button ()
+	{
+		choose_file_button.click();
+	}
+	
+	public void click_on_upload_button ()
+	{
+		upload_button.click();
+	}
 	
 	
-	
-	
-	
-	
-	
-
 }
